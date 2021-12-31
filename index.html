@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title> Gallery </title>
+</head>
+
+<body>
+
+    <div id="main-container">
+
+        <input type="file" id="filetoRead" multiple accept="image/*"/>
+        <div id="image-container"></div>
+
+        <div id="btn-container">
+            <img class="rotated-arrow" onclick="firstImage()" src="img/Flecha2.png">
+            <img class="rotated-arrow" onclick="prevImage()" src="img/Flecha.png">
+            
+            <div id="index-container">
+                <div id="index">0/0</div>
+            </div>
+
+            <img onclick="nextImage()" src="img/Flecha.png">
+            <img onclick="lastImage()" src="img/Flecha2.png">
+        </div>
+
+        <div id="description-container">
+            Explicabo recusandae asperiores consequatur eligendi praesentium aperiam cupiditate saepe. Dolorum saepe
+            corporis corporis ut asperiores et accusantium voluptas. Omnis asperiores ea autem. Pariatur qui consequatur
+            non odio.
+        </div>
+    </div>
+    <script src="js/gallery.js"></script>
+</body>
+
+</html>
